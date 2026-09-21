@@ -1,0 +1,50 @@
+{
+  "title": "WatchAI Deterrence",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect your camera",
+        "description": "Enter the camera’s local address and login. Setup tests authentication without activating the lights.",
+        "data": {
+          "name": "Camera name",
+          "host": "Camera address",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_host": "Enter a hostname or IP address, optionally with http://, https://, or a port.",
+      "invalid_auth": "The camera rejected the login. Check credentials and any temporary account lock.",
+      "cannot_connect": "Cannot reach the camera. Check its address and the network connection.",
+      "unsupported_protocol": "This camera uses an unsupported response or authentication format.",
+      "camera_error": "The camera rejected the request. Check available login sessions and camera permissions.",
+      "already_configured": "This camera address is already configured."
+    },
+    "abort": {
+      "already_configured": "This camera address is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Camera connection",
+        "description": "Enter the updated connection details and password. This tests login without activating the lights.",
+        "data": {
+          "name": "Camera name",
+          "host": "Camera address",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_host": "Enter a hostname or IP address, optionally with http://, https://, or a port.",
+      "invalid_auth": "The camera rejected the login. Check credentials and any temporary account lock.",
+      "cannot_connect": "Cannot reach the camera. Check its address and the network connection.",
+      "unsupported_protocol": "This camera uses an unsupported response or authentication format.",
+      "camera_error": "The camera rejected the request. Check available login sessions and camera permissions.",
+      "already_configured": "This camera address is already configured."
+    }
+  }
+}
